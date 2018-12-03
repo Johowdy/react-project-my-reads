@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Bookshelf from './Bookshelf'
 import { Link } from 'react-router-dom'
 
-class BooksList extends React.Component {
+class BooksList extends Component {
 
   render() {
     const { books, bookChangeShelf } = this.props
